@@ -25,6 +25,12 @@
  * Perfect Game: Roll 10 12 times
  */
 
-TEST_CASE("Bowling Game") {
+struct Game {
+    void roll(int pins) {
+    }
+    int score() {
+    }
+};
 
+TEST_CASE("Bowling Game") {
 }
